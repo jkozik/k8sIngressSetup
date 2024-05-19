@@ -133,3 +133,7 @@ Commercial support is available at
 </html>
 jkozik@knode202:~/k8sIngressSetup$
 ```
+### Through home LAN reverse proxy
+I have a home LAN that has a mapping from 'k8s.kozik.net' on my external internet IP address to the kubernetes cluster --> https://192.168.100.200:31125
+![Screenshot 2024-05-19 154423](https://github.com/jkozik/k8sIngressSetup/assets/1474681/8d8cc90d-49ea-4acf-a6dd-56f6a793831f)
+
