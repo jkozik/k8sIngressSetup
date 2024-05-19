@@ -105,6 +105,8 @@ Commercial support is available at
 </body>
 </html>
 ```
+In the scripts above, verify that the ingrewss has an ADDRESS that points to the LAN, outside of the cluster. 
+
 Or, anywhere on the home LAN, one can access the nginx server through the ingress controller
 ```
 jkozik@knode202:~/k8sIngressSetup$ curl -H "Host: k8s.kozik.net" 192.168.100.200:31125
